@@ -1,20 +1,19 @@
 fun main() {
-var word = "Akirachix"
-    println(word[0]+""+word[2]+""+word[3] )
 
+    text("Cathy")
    aboutMe("Aisha", 23)
 girl("Abdi")
+clarification("Anisa moha")
 
-var myname = "Aniso Moha"
-    if (myname.equals("Aniso Moha"))
-        println("that is me")
-
-    else{
-        println("I dont know who that is")
     }
 
-}
 
+fun text(word:String) {
+
+    println(word[0] + "" + word[2] + "" + word[3])
+
+
+}
 fun aboutMe(name:String, age: Int):String {
     var result = ("Hi my name is $name and I am $age years old")
     println(result)
@@ -26,4 +25,10 @@ fun girl(x:String){
     println(x.length)
 
 }
+fun clarification(myname:String){
+if (myname.equals("Aniso Moha"))
+println("that is me")
 
+else {
+    println("I dont know who that is")
+}}
