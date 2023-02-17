@@ -1,11 +1,9 @@
 fun main() {
-var word = "Akiracix"
+var word = "Akirachix"
     println(word[0]+""+word[2]+""+word[3] )
 
    aboutMe("Aisha", 23)
- val girl = "Aniso"
-    girl.length
-    println(girl.length)
+girl("Abdi")
 
 var myname = "Aniso Moha"
     if (myname.equals("Aniso Moha"))
@@ -23,5 +21,9 @@ fun aboutMe(name:String, age: Int):String {
     return result
 }
 
+fun girl(x:String){
+    x.length
+    println(x.length)
 
+}
 
